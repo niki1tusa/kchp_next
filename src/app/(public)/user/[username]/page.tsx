@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Profile",
+	title: 'Profile',
 };
 
 export default function ProfilePage() {
-  return <div>Profile</div>;
+	return <div>Profile </div>;
 }
