@@ -4,8 +4,8 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-import { menu } from './menu.data';
-import type { IMenuItem } from './menu.type';
+import { menu } from '../../shared/data/menu.data';
+import type { IMenuItem } from '../../shared/types/menu.type';
 import {match} from 'path-to-regexp'
 export function Menu() {
 	const pathname = usePathname();

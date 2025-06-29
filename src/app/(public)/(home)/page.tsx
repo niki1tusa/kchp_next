@@ -1,10 +1,12 @@
 import { Tweet } from './Tweet';
 import { tweets } from '@/shared/data/tweet.data';
+import { TweetForm } from './TweetForm';
 
 export default function Home() {
 	return (
 		<div>
 			<h1 className='text-3xl font-bold mb-6'>Home Page</h1>
+			<TweetForm/>
 			<div className='space-y-3'>
 				{tweets.map(tweet => (
 					<Tweet

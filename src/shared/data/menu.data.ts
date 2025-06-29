@@ -16,4 +16,9 @@ export const menu = [
 		title: 'Profile',
 		link: PAGES.FAKE,
 	},
+	{
+		id: 4,
+		title: 'Shop',
+		link: PAGES.SHOP
+	}
 ];
